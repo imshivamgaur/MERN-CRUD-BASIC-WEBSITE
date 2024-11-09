@@ -71,7 +71,7 @@ const CreatePage = ({ colorMode }) => {
               colorMode === "dark"
                 ? "bg-gray-800 text-white font-semibold"
                 : "bg-gray-300 text-black font-semibold "
-            } shadow-md shadow-[#00000054] transition-all duration-[.3s] p-10 flex flex-col gap-6 rounded-lg items-center`}
+            } shadow-md shadow-[#00000054] transition-all duration-[.3s] p-10   flex flex-col gap-6 rounded-lg items-center`}
           >
             <form
               onSubmit={handleFormSubmit}
